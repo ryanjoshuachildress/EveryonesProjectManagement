@@ -27,7 +27,7 @@ class LoginLogoutLogAdapter(private val logList : ArrayList<Login_Logout_log>) :
         return logList.size
     }
 
-    public class MyViewHolder(itemview: View) : RecyclerView.ViewHolder(itemview){
+    class MyViewHolder(itemview: View) : RecyclerView.ViewHolder(itemview){
         val tvEntry : TextView = itemview.findViewById(R.id.tvEntry)
         val tvTime : TextView = itemview.findViewById(R.id.tvTime)
         val tvUser : TextView = itemview.findViewById(R.id.tvUser)

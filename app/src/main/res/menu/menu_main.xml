@@ -2,17 +2,6 @@
 
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/mi_Exit"
-        android:icon="@drawable/ic_exit"
-        android:title="@string/mi_exit_title"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/mi_Logout"
-        android:icon="@drawable/ic_logout"
-        android:title="@string/mi_logout_title"
-        app:showAsAction="never" />
     <item
         android:id="@+id/mi_Log"
         android:icon="@drawable/ic_log"
@@ -25,4 +14,28 @@
                 app:showAsAction="never" />
         </menu>
     </item>
+    <item
+        android:id="@+id/mi_User"
+        android:icon="@drawable/ic_log"
+        android:title="@string/mi_user_title"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mi_user_profile"
+                android:title="@string/mi_show_user_profile_title"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+    android:id="@+id/mi_Logout"
+    android:icon="@drawable/ic_logout"
+    android:title="@string/mi_logout_title"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_Exit"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/mi_exit_title"
+        app:showAsAction="never" />
+
+
 </menu>

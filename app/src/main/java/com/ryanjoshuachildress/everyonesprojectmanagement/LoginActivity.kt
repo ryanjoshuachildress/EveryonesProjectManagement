@@ -63,14 +63,14 @@ class LoginActivity : AppCompatActivity() {
                     finish()
                 }
                 if (response?.error?.errorCode == ErrorCodes.NO_NETWORK) {
-                    Toast.makeText(this, getString(R.string.toast_error_no_network)+response?.error?.errorCode.toString(), Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, getString(R.string.toast_error_no_network)+ response.error?.errorCode.toString(), Toast.LENGTH_LONG).show()
                     return
                 }
 
                 if(response?.error?.errorCode == ErrorCodes.UNKNOWN_ERROR) {
-                    Toast.makeText(this, getString(R.string.toast_error_unknown_error)+response?.error?.errorCode.toString(), Toast.LENGTH_LONG)
+                    Toast.makeText(this, getString(R.string.toast_error_unknown_error)+ response.error?.errorCode.toString(), Toast.LENGTH_LONG)
                         .show()
-                    Log.d(TAG, response?.error?.errorCode.toString())
+                    Log.d(TAG, response.error?.errorCode.toString())
                     return
                 }
             }

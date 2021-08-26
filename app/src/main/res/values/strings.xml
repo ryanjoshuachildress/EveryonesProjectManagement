@@ -14,6 +14,8 @@
     <string name="toast_error_no_network">Can not connect to network</string>
     <string name="toast_error_unknown_error">Unknown Error</string>
     <string name="mi_logs_title">Logs</string>
+    <string name="mi_user_title">User</string>
     <string name="mi_show_login_log_out_logs_title">Show Login/out Logs</string>
+    <string name="mi_show_user_profile_title">User Profile</string>
 
 </resources>

@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val TAG = "MainActivity"
+        private const val USER_PROFILE_REQUEST_CODE = 248
     }
 
     private lateinit var tvName: TextView
@@ -86,6 +87,12 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.mi_show_login_logout_logs -> {
                 startActivity(Intent(this, ViewLoginLogoutLogActivity::class.java))
+                return true
+            }
+            R.id.mi_user_profile -> {
+                val intent = Intent(this, UserProfileActivity::class.java)
+                intent.putExtra("UserID", auth?.uid.toString())
+                startActivity(intent)
                 return true
             }
        }
