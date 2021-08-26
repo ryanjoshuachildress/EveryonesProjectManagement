@@ -6,5 +6,14 @@
     <string name="facebook_app_id" translatable="false">1482379685428563</string>
 
 
-    <string name="app_name">EveryonesProjectManagement</string>
+    <string name="app_name">Everyone\'s Project Management</string>
+    <string name="mi_logout_title">Logout</string>
+    <string name="mi_exit_title">Exit</string>
+    <string name="toast_sucessful_logout">\"Successfully Logged out: \"</string>
+    <string name="toast_sucessful_login">\"Successfully Logged in: \"</string>
+    <string name="toast_error_no_network">Can not connect to network</string>
+    <string name="toast_error_unknown_error">Unknown Error</string>
+    <string name="mi_logs_title">Logs</string>
+    <string name="mi_show_login_log_out_logs_title">Show Login/out Logs</string>
+
 </resources>

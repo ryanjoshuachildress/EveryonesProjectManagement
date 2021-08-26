@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EveryonesProjectManagement">
         <activity
+            android:name=".ViewLoginLogoutLogActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
